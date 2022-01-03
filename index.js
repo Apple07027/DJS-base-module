@@ -1,18 +1,16 @@
 const Discord = require('discord.js')
 const config = require('./config.json')
-const loadConfig = require('./Commands/Load-commands')
+const loadCommands = require('./Commands/load-command')
 const client = new Discord.Client({
-
-    intents:[
+    intents: [
         Discord.Intents.FLAGS.GUILDS,
         Discord.Intents.FLAGS.GUILD_MESSAGES
     ]
 })
 
-client.on ('ready', () =>{
-    console.log('client ready')
-
-    loadConfig(client)
+client.on('ready', () => {
+    console.log("bot ready!")
+    loadCommands(client)
 })
 
 client.login(config.token)

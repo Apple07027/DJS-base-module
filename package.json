@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Apple",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apple07027/DJS-base-bot-module.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apple07027/DJS-base-bot-module/issues"
+  },
+  "homepage": "https://github.com/Apple07027/DJS-base-bot-module#readme",
   "dependencies": {
-    "discord.js": "^13.5.0",
-    "nodemon": "^2.0.15"
+    "discord.js": "^13.5.0"
   }
 }
