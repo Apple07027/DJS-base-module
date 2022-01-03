@@ -1,7 +1,7 @@
 
 # DJS base module
 
-A basic command handler and basic command for a good start :)
+A basic command handler and basic commands for a great start :)
 
  created by Appleツ🍏#9091
 
